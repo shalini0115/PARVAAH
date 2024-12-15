@@ -62,8 +62,7 @@ loginForm.addEventListener('submit', (event) => {
 });
 
 
-loginPopup.style.display = 'none';
-document.body.appendChild(loginPopup);
+
 
 signupForm.addEventListener('submit', (event) => {
     event.preventDefault();
